@@ -62,3 +62,4 @@
   * [専用リポジトリ](https://github.com/4d/ios-sdk)が単体でダウンロードできる
   * 入れ替えた後に下記のファイルを書き換えること
   * `$HOME/Library/Application Support/4D/4D Mobile App/requirements.json`
+  * 4D for iOSの[旧リポジトリ](https://github.com/4d-go-mobile/sdk)には初期のsdkが置かれている
