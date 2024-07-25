@@ -56,7 +56,7 @@
   * プロジェクトの*Components* フォルダーにインストールする
  
 * sdk
-  * 4D Mobile Appに*.zip* 形式で含まれている
+  * 4D Mobile Appに.zip形式で含まれている
   * Xcodeと厳密にバージョンが対応していなければならない
   * このファイルだけ入れ替えても良い
   * [専用リポジトリ](https://github.com/4d/ios-sdk)が単体でダウンロードできる
