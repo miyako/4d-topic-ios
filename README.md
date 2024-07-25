@@ -48,3 +48,17 @@
 |17R4|4.2.1|12  |10.1  |10.13.6|
 |17R3|4.2  |12  |10.0  |10.13.6|
 |17R2|4.1.2|11.4|9.4   |10.13.2|
+
+4D for iOSは複数の部分で構成される
+
+* [4D Mobile App](https://github.com/4d/4D-Mobile-App)コンポーネント
+  * [リリース](https://github.com/4d/4D-Mobile-App/releases)からダウンロード
+  * プロジェクトの*Components* フォルダーにインストールする
+ 
+* sdk
+  * 4D Mobile Appに*.zip* 形式で含まれている
+  * Xcodeと厳密にバージョンが対応していなければならない
+  * このファイルだけ入れ替えても良い
+  * [専用リポジトリ](https://github.com/4d/ios-sdk)が単体でダウンロードできる
+  * 入れ替えた後に下記のファイルを書き換えること
+  * `$HOME/Library/Application Support/4D/4D Mobile App/requirements.json`
