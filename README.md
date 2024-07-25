@@ -68,6 +68,7 @@
 
 * [14.3](https://github.com/4d/ios-sdk/releases/tag/v20.x)
 * [14.3.1](https://github.com/4d/ios-sdk/releases/tag/main.0)（公式）
+* [15](https://github.com/4d/ios-sdk/releases/tag/v20-xcode-15-rc1)
 * [15.0.1](https://github.com/4d/ios-sdk/releases/tag/v20-xcode-15.0.1)
 * [15.1](https://github.com/4d/ios-sdk/releases/tag/two-relation-fixes)
 * [15.2](https://github.com/4d/ios-sdk/releases/tag/xcode-15.2)
