@@ -54,7 +54,9 @@
 * [4D Mobile App](https://github.com/4d/4D-Mobile-App)コンポーネント
   * [リリース](https://github.com/4d/4D-Mobile-App/releases)からダウンロード
   * プロジェクトの*Components* フォルダーにインストールする
- 
+
+* Apple configurator 2 （任意）
+* [4D Mobile App Server](https://github.com/4d/4D-Mobile-App-Server) （任意）
 * sdk
   * 4D Mobile Appに.zip形式で含まれている
   * Xcodeと厳密にバージョンが対応していなければならない
