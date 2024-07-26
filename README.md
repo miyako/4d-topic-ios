@@ -52,7 +52,7 @@
 4D for iOSは複数の部分で構成されています。
 
 * [4D Mobile App](https://github.com/4d/4D-Mobile-App)コンポーネント
-  * [リリース](https://github.com/4d/4D-Mobile-App/releases)からダウンロード
+  * [リリース](https://github.com/4d/4D-Mobile-App/releases)からダウンロードまたはソースコードをクローン
   * プロジェクトの*Components* フォルダーにインストールする
 * Xcode
 * Apple configurator 2 （任意）
@@ -78,3 +78,7 @@
 * [15.4](https://github.com/4d/ios-sdk/releases/tag/xcode-15.4)
 
 したがって，4D Mobile Appコンポーネントをダウンロード＆インストールした後，手元のXcodeに合わせてsdkを入れ替え，*requirements.json* を書き換える，という手順になります。 
+
+4D Mobile Appコンポーネントのリリース版はコンパイルされており，*lib4d-arm64.dylib* （ダイナミックリンクライブラリ）は原則的にコード署名＆公証されています。初期のリリースはコード署名＆公証がされていなかったため，「Finderで右クリックしてから開く」「ブラウザを使わずにcURLでダウンロードする」といった回避策が挙げられています。あるいは，ソースコードをクローンしてインタープリターモードで実行するか，手元でコンパイルすることもできます。ソースコードをクローンまたはダウンロードするときには，リポジトリのブランチ（20.x, 20 R2, 20 R3, 20 R4...）を確認してください。
+
+<img src="https://github.com/user-attachments/assets/97d7994b-8c6c-4d2a-a251-834c051eb446" width="300" height="auto" />
