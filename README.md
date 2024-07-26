@@ -55,7 +55,7 @@
 |17R3|4.2  |12  |10.0  |10.13.6|
 |17R2|4.1.2|11.4|9.4   |10.13.2|
 
-上記の対応表はドキュメントに掲載されているものです。これとは別に[xcode.json](https://github.com/4d-go-mobile/sdk/blob/master/xcode.json)（後述するrequirements.jsonのマスター）ファイルが内部的に参照されるようになっています。
+上記の対応表はドキュメントに掲載されているものです。これとは別に[xcode.json](https://github.com/4d-go-mobile/sdk/blob/master/xcode.json)（後述する*requirements.json* のマスター）ファイルが内部的に参照されるようになっています。
 
 4D for iOSは複数の部分で構成されています。
 
