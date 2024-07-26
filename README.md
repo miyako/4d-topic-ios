@@ -14,8 +14,7 @@
   * 過去の[4D for iOSドキュメント](https://developer.4d.com/4d-for-ios/ja/)がアーカイブされる
 * v19 R2~R8: 4D for iOSと4D for Androidの名称が[4D for Mobile](https://developer.4d.com/go-mobile/ja/docs/19-R8/getting-started/introduction/)に統一される
 * v20: 4D for Mobileが[追加コンポーネント](https://blog.4d.com/ja/4d-for-mobile-goes-open-source-a-big-step-for-the-community/)となる
-
-4D for Mobileのブログ記事とチュートリアルは[まとめページ](https://blog.4d.com/categories/4d-for-mobile/)を参照
+* 4D for Mobileのブログ記事とチュートリアルの[まとめページ](https://blog.4d.com/categories/4d-for-mobile/)が公開される
 
 ## 注意点
 
