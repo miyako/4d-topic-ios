@@ -69,7 +69,7 @@
   * 4D Mobile Appに.zip形式で含まれている
   * Xcodeと厳密にバージョンが対応していなければならない
   * このファイルだけ入れ替えても良い
-  * [専用リポジトリ](https://github.com/4d/ios-sdk)が単体でダウンロードできる
+  * [リポジトリ](https://github.com/4d/ios-sdk)からダウンロードできる
   * 入れ替えた後に下記のファイルを書き換えること
   * `$HOME/Library/Application Support/4D/4D Mobile App/requirements.json`
   * 4D for iOSの[旧リポジトリ](https://github.com/4d-go-mobile/sdk)には初期のsdkが置かれている
