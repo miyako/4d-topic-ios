@@ -77,6 +77,6 @@
 * [15.3](https://github.com/4d/ios-sdk/releases/tag/xcode-15.3)
 * [15.4](https://github.com/4d/ios-sdk/releases/tag/xcode-15.4)
 
-したがって，4D Mobile Appコンポーネントをダウンロード＆インストールした後，手元のXcodeに合わせてsdkを入れ替え，*requirements.json* を書き換える，という手順になります。 
+したがって，4D Mobile Appコンポーネントを[リリース](https://github.com/4d/4D-Mobile-App/releases)からダウンロード＆インストールした後，手元のXcodeに合わせてsdkを入れ替え，*requirements.json* を書き換える，という手順になります。 
 
 4D Mobile Appコンポーネントのリリース版はコンパイルされています。初期のリリースはコード署名＆公証がされていなかったため，「Finderで右クリックしてから開く」「ブラウザを使わずにcURLでダウンロードする」といった回避策が挙げられていますが，*lib4d-arm64.dylib* （ダイナミックリンクライブラリ）は原則的にコード署名＆公証されています。
