@@ -1,9 +1,9 @@
 # 4d-topic-ios
 4D 20以降で4D for Mobile (iOS) をセットアップするには
 
-[4D for Mobile](https://jp.4d.com/4D-for-Mobile)はネイティブモバイルアプリ（AndroidまたはiOS）をノーコードで作成するツール。
+[4D for Mobile](https://jp.4d.com/4D-for-Mobile)はネイティブモバイルアプリ（AndroidまたはiOS）をノーコードで作成するツールです。
 
-ウィザードの指示に従い，項目を選択すると，4DデータベースアプリケーションのREST API（URLが`/MobileApp/`で始まる）と通信するモバイルアプリのソースコードがSwiftまたはKotlinで生成され，XcodeまたはAndroid Studioでビルド＆デプロイする仕組み。
+ウィザードの指示に従い，項目を選択すると，4DデータベースアプリケーションのREST API（URLが`/MobileApp/`で始まる）と通信するモバイルアプリのソースコードがSwiftまたはKotlinで生成され，XcodeまたはAndroid Studioでビルド＆デプロイする仕組みになっています。
 
 ## 変遷
 
@@ -16,10 +16,11 @@
 * v20: 4D for Mobileが[追加コンポーネント](https://blog.4d.com/ja/4d-for-mobile-goes-open-source-a-big-step-for-the-community/)となる
 * 4D for Mobileのブログ記事とチュートリアルの[まとめページ](https://blog.4d.com/categories/4d-for-mobile/)が公開される
 
-## 注意点
+## 注意するべきこと
 
-* 新旧のドキュメントが存在する。[旧ページ]は初期の4D for iOSが対象。最新の4D 20, 4D for Mobile, Xcodeには対応していない。
-* 4D for iOS（または4D for MobileのiOS部分）はXcodeのバージョンが厳密に合っていないと使えない。
+* 新旧のドキュメントが存在します。[旧ドキュメント](https://developer.4d.com/4d-for-ios/ja/)は初期の4D for iOSが対象で，v18, v19, v19 R2 betaまでの内容をカバーしています。[新ドキュメント](https://developer.4d.com/go-mobile/ja/)には4D for iOSおよび 4D for Android v20（4D go mobile feature）の情報が掲載されており，バージョンを切り替えることでv19 R8の内容も読めるようになっています。v19 R2~R7は後継バージョンで上書きされてきたので残っていません。
+ 
+* 4D for iOS（または4D for MobileのiOS部分）はXcodeのバージョンが厳密に合っていないと使えません。
 
 |4D|Swift|iOS|Xcode|macOS|
 |-|-|-|-|-|
@@ -48,7 +49,7 @@
 |17R3|4.2  |12  |10.0  |10.13.6|
 |17R2|4.1.2|11.4|9.4   |10.13.2|
 
-4D for iOSは複数の部分で構成される
+4D for iOSは複数の部分で構成されています。
 
 * [4D Mobile App](https://github.com/4d/4D-Mobile-App)コンポーネント
   * [リリース](https://github.com/4d/4D-Mobile-App/releases)からダウンロード
@@ -65,7 +66,7 @@
   * `$HOME/Library/Application Support/4D/4D Mobile App/requirements.json`
   * 4D for iOSの[旧リポジトリ](https://github.com/4d-go-mobile/sdk)には初期のsdkが置かれている
 
-例：4D 20リリース当時のコンポーネントは「Xcode 14.3.1」で動作する。より新しいXcodeでアプリを作成するためには，sdkを入れ替えなければならない。下記のバージョンがGitHubから入手できる。
+例：4D 20リリース当時のコンポーネントは「Xcode 14.3.1」で動作します。より新しいXcodeでアプリを作成するためには，sdkを入れ替えなければならりません。下記のバージョンがGitHubから入手できます。
 
 * [14.3](https://github.com/4d/ios-sdk/releases/tag/v20.x)
 * [14.3.1](https://github.com/4d/ios-sdk/releases/tag/main.0)（公式）
@@ -75,3 +76,5 @@
 * [15.2](https://github.com/4d/ios-sdk/releases/tag/xcode-15.2)
 * [15.3](https://github.com/4d/ios-sdk/releases/tag/xcode-15.3)
 * [15.4](https://github.com/4d/ios-sdk/releases/tag/xcode-15.4)
+
+したがって，4D Mobile Appコンポーネントをダウンロード＆インストールした後，手元のXcodeに合わせてsdkを入れ替え，*requirements.json* を書き換える，という手順になります。 
